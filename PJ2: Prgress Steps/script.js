@@ -11,7 +11,10 @@ next.addEventListener('click', () => {
     newWidth  += 33;
     progress.style.width = newWidth + "%";
     circles[currentActive].classList.add('active')
-    prev.removeAttribute('disabled', '');
+    prev.removeAttribute('disabled');
+    if(currentActive = 3) {
+        next.setAttribute('disabled', '');
+    }
 })
 
 prev.addEventListener('click', () => {
