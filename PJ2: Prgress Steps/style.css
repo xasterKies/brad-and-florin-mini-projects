@@ -66,20 +66,36 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #e0e0e0;
+    border: 3px solid var(--line-border-empty);
     transition: 0.4s ease;
 }
 
 .btn {
-    padding: 10px;
-    width: 60px;
-    margin: 10px;
-    border-radius: 10%;
-    border: rgba(rgb(56, 56, 56), green, blue, alpha) 
-
+   background: var(--line-border-fill);
+   color: #fff;
+   border: none;
+   border-radius: 6px;
+   padding: 5px;
+   width: 65px;
+   cursor: pointer;
+   font-family: inherit;
+   margin: 5px;
 }
 
 .circle.active {
-    border-color: #3498db;
+    border-color: var(--line-border-fill);
 }
 
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
