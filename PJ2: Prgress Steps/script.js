@@ -8,7 +8,7 @@ let currentActive = 1;
 next.addEventListener('click', () => {
     currentActive++
 
-    bar = progress.style.width;
+    bar = progress.style.width.valueOf();
 
     switch (bar) {
         case currentActive = 2 :
