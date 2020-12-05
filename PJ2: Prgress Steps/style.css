@@ -52,5 +52,14 @@ body {
     transition: 0.4s ease;
 }
 
-
+.circle {
+    background: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
