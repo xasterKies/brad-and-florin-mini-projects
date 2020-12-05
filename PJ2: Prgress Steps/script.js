@@ -7,20 +7,10 @@ let currentActive = 1;
 
 next.addEventListener('click', () => {
     currentActive++
+    newWidth  += 33;
+    progress.style.width = newWidth + "%";
+    circles[currentActive].classList.add('active')
+    prev.removeAttribute('disabled', '');
+})
 
-    bar = progress.style.width.valueOf();
-
-    switch (bar) {
-        case currentActive = 2 :
-            bar = '32%';
-            break;
-        case currentActive = 3 :
-            bar = '64%';
-            break;
-        case currentActive = 4:
-            bar = '96%'
-            break;
-        default:
-            bar = '0%'
-    }
-}
+prev.addEventListener
