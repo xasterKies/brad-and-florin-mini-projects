@@ -29,15 +29,15 @@ body {
 }
 
 .progress-container::before {
+    content: '';
     background-color: #e0e0e0;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 0%;
+    width: 100%;
     z-index: -1;
-    transition: 0.4s ease;
 }
 
 .progress {
@@ -51,4 +51,6 @@ body {
     z-index: -1;
     transition: 0.4s ease;
 }
+
+
 
