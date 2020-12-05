@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --line-border-fill: #3498db;
+    --line-border-empty: #e0e0e0;
+}
+
 body {
     background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
@@ -30,7 +35,7 @@ body {
 
 .progress-container::before {
     content: '';
-    background-color: #e0e0e0;
+    background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
     left: 0;
@@ -41,7 +46,7 @@ body {
 }
 
 .progress {
-    background-color: #3498db;
+    background-color: var(--line-border-fill);
     position: absolute;
     top: 50%;
     left: 0;
@@ -61,5 +66,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid #e0e0e0;
+    transition: 0.4s ease;
+}
+
+.btn {
+    padding: 10px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 10%;
+    border: rgba(rgb(56, 56, 56), green, blue, alpha) 
+
+}
+
+.circle.active {
+    border-color: #3498db;
 }
 
