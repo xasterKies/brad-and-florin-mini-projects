@@ -5,9 +5,9 @@
 }
 
 body {
+    background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
     margin: 0;
-    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,4 +15,12 @@ body {
     overflow: hidden;
 }
 
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+
+}
 
