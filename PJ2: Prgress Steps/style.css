@@ -67,7 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 3px solid var(--line-border-empty);
-    transition: 0.8s ease;
+    transition: 1.0s ease;
 }
 
 .btn {
