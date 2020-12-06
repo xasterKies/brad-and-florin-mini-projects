@@ -23,6 +23,16 @@ body {
     border-radius: 5px;
 }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+
+}
+
 .container h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -55,3 +65,5 @@ body {
   .form-control input:valid {
     outline: none;
 }
+
+
