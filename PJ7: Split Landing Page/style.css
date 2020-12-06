@@ -126,4 +126,11 @@ h1 {
     width: var(--other-width);
 }
 
+@media (max-width: 80px) {
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
 
