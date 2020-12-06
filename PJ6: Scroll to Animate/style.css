@@ -5,18 +5,29 @@
 }
 
 body {
+    background: #efedd6;
     font-family: 'Muli', sans-serif;
     margin: 0;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden;
 }
 
-.box {
+
+
+h1 {
+    margin: 10px;
+}
+
+.bar {
+    margin: 10px;
     padding: 30px;
+    background: blue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 
