@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+:root {
+    --left-bg-color: rgba(87, 84 236, 0.7);
+    --right-bg-color: rgba(43, 43, 43, 0.8)
+}
+
 
 * {
     box-sizing: border-box;
@@ -11,6 +16,18 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
 .conatainer {
     position: relative;
     width: 100%;
@@ -21,13 +38,37 @@ body {
 .split {
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: 100%;
     overflow: hidden;
 }
 
 .split.left {
     left: 0;
     background: url('https://wallpaperaccess.com/full/1644223.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
+}
+
+.split.right {
+    right: 0;
+    background: url('https://cdn.the-scientist.com/assets/articleNo/66719/aImg/34769/article-desert-l.png');
+    background-size: cover;
+}
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
 }
 
 
