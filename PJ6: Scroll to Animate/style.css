@@ -34,8 +34,12 @@ h1 {
     transition: transform 0.4s ease;
 }
 
-.box.show {
-    transform: translateX(0);
+.bar.show {
+    transform: translateX(-200%);
+}
+
+.box:nth-of-type(even) {
+
 }
 
 
