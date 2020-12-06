@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 :root {
-    --left-bg-color: rgba(87, 84 236, 0.7);
-    --right-bg-color: rgba(43, 43, 43, 0.8)
+    --left-bg-color: rgba(87, 84, 236, 0.7);
+    --right-bg-color: rgba(43, 43, 43, 0.8);
 }
 
 
@@ -26,6 +26,17 @@ h1 {
     top: 20%;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
 }
 
 .conatainer {
