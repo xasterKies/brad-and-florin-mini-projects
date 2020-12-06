@@ -113,3 +113,10 @@ nav ul li i {
     margin-right: 10px;
 }
 
+nav ul li + li {
+    margin-left: 15px;
+}
+
+nav ul li + li + li{
+    margin-left: 30px;
+}
