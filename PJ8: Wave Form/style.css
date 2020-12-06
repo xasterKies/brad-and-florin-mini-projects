@@ -45,4 +45,13 @@ body {
     border-bottom: 2px #fff solid;
     display: block;
     width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control
+ input:focus,
+  .form-control input:valid {
+    outline: none;
 }
