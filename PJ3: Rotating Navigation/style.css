@@ -50,3 +50,20 @@ body {
     color: #fff;
 }
 
+.circle button:focus {
+    outline: none;
+}
+
+.circle button#open {
+    left: 60%;
+}
+
+.circle button#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.content img {
+    max-width: 100%;
+}
