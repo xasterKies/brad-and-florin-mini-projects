@@ -13,6 +13,12 @@ body {
 
 .container {
     background-color: #fafafa;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+    transform: rotate(-20deg);
 }
 
 
