@@ -26,6 +26,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-self: center;
+    border-radius: 5%;
 }
 
 
