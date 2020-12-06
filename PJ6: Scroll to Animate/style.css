@@ -21,12 +21,23 @@ h1 {
 .bar {
     margin: 10px;
     padding: 30px;
-    background: blue;
+    background: steelblue;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     border-radius: 5%;
+    width: 400px;
+    height: 200px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
 }
+
+.box.show {
+    transform: translateX(0);
+}
+
+
 
 
