@@ -30,7 +30,13 @@ body {
     background: lightblue;
     padding: 15px;
     font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
 
+.btn:focus {
+    outline: none;
 }
 
 .container h1 {
