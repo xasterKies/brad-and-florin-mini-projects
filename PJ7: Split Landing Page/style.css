@@ -104,6 +104,10 @@ h1 {
     background-color: var(--right-bg-color);
 }
 
+.split.right, .split.right::before, .split.left, .split.left::before {
+    transition: all var(--speed);
+}
+
 .hover-left .left {
     width: var(--hover-width);
 }
