@@ -41,6 +41,7 @@ body {
 
 .container.show-nav .circle {
     transform: rotate(-70deg);
+    
 }
 
 .circle button {
